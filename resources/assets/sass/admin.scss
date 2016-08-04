@@ -1,0 +1,37 @@
+@import "variables";
+
+@import "vendor/font-awesome";
+@import "vendor/select2";
+@import "vendor/patternfly";
+@import "vendor/animate";
+@import "vendor/sweetalert";
+@import "vendor/ckeditor";
+@import "vendor/dropzone";
+
+@import "includes/toggles";
+@import "includes/animations";
+
+.navbar-brand-icon {
+    line-height: 35px;
+}
+.toolbar-pf {
+    padding-bottom: 10px;
+}
+.list-card {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+// Forms
+.info.row {
+    margin-bottom: 15px;
+    .action-buttons {
+        text-align: right;
+    }
+}
+.Form__title {
+    margin: 0px;
+}
+.Image__thumbnail--200 img {
+    max-width: 100%;
+}
